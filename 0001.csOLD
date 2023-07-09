@@ -1,0 +1,25 @@
+﻿using System;
+
+// namespaces are containers for classes and functions
+namespace NumberGuesser
+{
+    // main class
+    internal class Program
+    {
+        // entry point method for our application
+        // void: no return type
+        // static: only one instance, referring to the function itself
+        static void Main(string[] args)
+        {
+            // start code here
+            string name = "riley";
+            int age = 10;
+
+
+            Console.WriteLine("Hello " +name);
+            // Console.WriteLine(name + " is " + age);
+            // arguments or something!
+            Console.WriteLine("{0} is {1}", name, age);
+        }
+    }
+}
